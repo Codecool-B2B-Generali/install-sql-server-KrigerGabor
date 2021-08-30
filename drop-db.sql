@@ -46,6 +46,13 @@ IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[production]
 DROP TABLE [production].[categories]
 GO
 
+USE [master]
+GO
+
+/****** Object:  Database [BikeStores]    Script Date: 2021.08.30 10:54:04 ******/
+DROP DATABASE [BikeStores]
+GO
+
 
 
 
